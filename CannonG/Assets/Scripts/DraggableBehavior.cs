@@ -13,7 +13,8 @@ public class DraggableBehavior : MonoBehaviour
         cameraObj = Camera.main;
     }
 
-    public IEnumerator OnMouseDown()
+    public IEnumerator Ontouchstart()
+    //OnMouseDown()
     {
         offset = transform.position -cameraObj.ScreenToWorldPoint(Input.mousePosition);
         draggable = true;
@@ -28,7 +29,8 @@ public class DraggableBehavior : MonoBehaviour
         }
     }
 
-    private void OnMouseUp()
+    private void Ontouchend()
+    //OnMouseUp()
     {
         draggable = false;
         endDragEvent.Invoke();
