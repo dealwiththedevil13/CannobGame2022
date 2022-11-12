@@ -644,6 +644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 529064426720471045, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
+      propertyPath: m_TagString
+      value: Boundary
+      objectReference: {fileID: 0}
     - target: {fileID: 529064426720471047, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -725,6 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6615da528b6206c499615dfb3b83fd31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
 --- !u!1001 &4484890779740221295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -746,7 +751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6053712010623601017, guid: 9ea396f2e0c61af48a3232cc756b6ad4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -4.39
       objectReference: {fileID: 0}
     - target: {fileID: 6053712010623601017, guid: 9ea396f2e0c61af48a3232cc756b6ad4, type: 3}
       propertyPath: m_LocalPosition.z

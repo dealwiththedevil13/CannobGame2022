@@ -6,10 +6,6 @@ using UnityEngine;
 public class EnemyBehavior : MonoBehaviour
 {
     public float moveSpeed;
-    void Start()
-    {
-        
-    }
 
     // Code from Night Run Studio https://www.youtube.com/watch?v=G3OKV1fcsGk
 
@@ -26,7 +22,7 @@ public class EnemyBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         object collision;
-        if (Collision.gameObject.tag == "Boundary")
+       if (other.CompareTag("Boundary"))
         {
             moveSpeed *= -1;
         }
