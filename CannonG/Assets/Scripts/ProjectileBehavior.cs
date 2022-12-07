@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+//Script reference by The Ultimate Developer at https://www.youtube.com/watch?v=X5kGAy5CPVs
 public class ProjectileBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject BulletPrefab;
 
-    // Update is called once per frame
-    void Update()
+    public void Fire()
     {
-        
+        GameObject bullet = Instantiate(BulletPrefab, this.transform.position, transform.rotation, transform);
+
+        Destroy(bullet, 1.5f);
     }
 }
