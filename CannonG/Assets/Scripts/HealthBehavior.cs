@@ -18,7 +18,7 @@ public class HealthBehavior : MonoBehaviour
     //Referenced code from https://www.youtube.com/watch?v=NE5cAlCRgzo
     void Update()
     {
-        Health = Player.Health;
+        //Health = Player.Health;
         HealthBar.fillAmount = Health / MaxHealth;
     }
 }
