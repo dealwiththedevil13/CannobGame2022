@@ -1721,6 +1721,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 249698404}
     m_Modifications:
+    - target: {fileID: -5656945718385813197, guid: aba18fad0b3040844ba525d9cfcd3e81, type: 3}
+      propertyPath: m_Size.x
+      value: 2.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -5656945718385813197, guid: aba18fad0b3040844ba525d9cfcd3e81, type: 3}
+      propertyPath: m_Size.y
+      value: 1.88
+      objectReference: {fileID: 0}
     - target: {fileID: 7505416686595393751, guid: aba18fad0b3040844ba525d9cfcd3e81, type: 3}
       propertyPath: m_Name
       value: Enemy3
@@ -1861,6 +1869,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 249698404}
     m_Modifications:
+    - target: {fileID: 5772925153265227615, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
+      propertyPath: m_Size.x
+      value: 1.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5772925153265227615, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
+      propertyPath: m_Size.y
+      value: 2.04
+      objectReference: {fileID: 0}
     - target: {fileID: 5772925153265227939, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
       propertyPath: Points.Array.data[0]
       value: 
@@ -1922,6 +1938,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 249698404}
     m_Modifications:
+    - target: {fileID: -6715461911590727070, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
+      propertyPath: m_Size.x
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6715461911590727070, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
+      propertyPath: m_Size.y
+      value: 2.15
+      objectReference: {fileID: 0}
     - target: {fileID: 1184416997004389205, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
       propertyPath: m_Name
       value: Enemy2
@@ -1929,6 +1953,10 @@ PrefabInstance:
     - target: {fileID: 5526238500387943880, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526238500387943880, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5526238500387943880, guid: df982d1f0e94f5047b424fc4d5a31d42, type: 3}
       propertyPath: m_LocalPosition.x
