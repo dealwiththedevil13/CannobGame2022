@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class WaveSpawner : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    // Code created by The Ultimate Developer
     void Start()
     {
         
