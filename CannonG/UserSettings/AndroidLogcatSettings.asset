@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT34CA79P",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 9054,
+        "processId": 24534,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,12 @@
             "deviceId": "R5CT34CA79P",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 9054,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT34CA79P",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 24534,
             "exited": false
         }
     ],
