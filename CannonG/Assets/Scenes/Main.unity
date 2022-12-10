@@ -1889,7 +1889,7 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2.04
       objectReference: {fileID: 0}
-    - target: {fileID: 5772925153265227939, guid: 4db2b24f850332d458a73d22b221dead, type: 3}
+    - target: {fileID: 0}
       propertyPath: Points.Array.data[0]
       value: 
       objectReference: {fileID: 406343433}
