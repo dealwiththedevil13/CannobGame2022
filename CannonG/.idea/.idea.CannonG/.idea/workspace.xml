@@ -12,6 +12,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoroutineBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3DataList.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,7 +80,7 @@
       <workItem from="1668444859394" duration="1170000" />
       <workItem from="1669776658998" duration="2215000" />
       <workItem from="1669876369506" duration="2183000" />
-      <workItem from="1670458485925" duration="7700000" />
+      <workItem from="1670458485925" duration="9582000" />
     </task>
     <servers />
   </component>
