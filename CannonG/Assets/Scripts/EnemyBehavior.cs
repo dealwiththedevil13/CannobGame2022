@@ -5,26 +5,28 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-    public float moveSpeed;
+    private Rigidbody rb;
+    public float speed;
+    
 
-    // Code from Night Run Studio https://www.youtube.com/watch?v=G3OKV1fcsGk
+    // Code from The Ultimate Developer https://www.youtube.com/watch?v=0uQrpQXiGEs
 
-    void Update()
+    void Start()
     {
-            transform.Translate(Vector2.right * (moveSpeed * Time.deltaTime));
+        rb = GetComponent<Rigidbody>();
     }
     
-   /* private IEnumerator OnTriggerEnter(Collider other)
-    {
-        
-    }*/
+   void Update()
+   {
+       rb.velocity = new Vector3(0f, -speed);
+   }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         object collision;
        if (other.CompareTag("Boundary"))
         {
             moveSpeed *= -1;
         }
-    }
+    }*/
 }
