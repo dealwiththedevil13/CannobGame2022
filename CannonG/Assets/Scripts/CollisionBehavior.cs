@@ -5,12 +5,17 @@ public class CollisionBehavior : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "")
+        if (other.tag == "Player")
         {
+            Destroy(gameObject);
             return;
         }
-        Destroy(other.gameObject);
-        Destroy(gameObject);
+        else
+        {
+            var b = (other.tag == "bullet");
+            Destroy(other.gameObject);
+            Destroy(gameObject);
+        }
 
     }
 }
