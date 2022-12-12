@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3DataList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/waveSpawner1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +84,7 @@
       <workItem from="1668444859394" duration="1170000" />
       <workItem from="1669776658998" duration="2215000" />
       <workItem from="1669876369506" duration="2183000" />
-      <workItem from="1670458485925" duration="11909000" />
+      <workItem from="1670458485925" duration="14310000" />
     </task>
     <servers />
   </component>
