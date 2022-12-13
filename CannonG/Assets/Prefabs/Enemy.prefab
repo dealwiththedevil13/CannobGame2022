@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5772925153265227615}
   - component: {fileID: 7793088666614898932}
   - component: {fileID: -8445787130303761873}
+  - component: {fileID: -1883523497302310592}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Boundary
@@ -140,3 +141,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac349212d2c7f0c4283bb5a96e67b1a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1883523497302310592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289859192139464543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e27c4058544a7f44aa991b34911d6f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 10
