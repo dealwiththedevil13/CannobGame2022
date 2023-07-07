@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT34CA79P",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 24534,
+        "processId": 16747,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,18 +12,30 @@
             "deviceId": "R5CT34CA79P",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 11051,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CT34CA79P",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 9054,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CT34CA79P",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 24534,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT34CA79P",
+            "name": "com.android.chrome",
+            "processId": 13710,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT34CA79P",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16747,
             "exited": false
         }
     ],
