@@ -9,6 +9,7 @@ public class UIScripts : MonoBehaviour
     {
         
     }
+    //Buttons to move the character
 
     // Update is called once per frame
     void Update()
